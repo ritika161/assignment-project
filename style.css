@@ -1,0 +1,163 @@
+.collapse {
+    height:36.49px;
+    width:650.8px;
+    gap:22.27px;
+    margin-left: 500px;
+}
+
+.btn{
+    background-color:  rgb(40, 152, 0);
+    color: white;
+}
+.home{
+    height:416.95px;
+    width: 1,002.34px;
+    padding:66.82px 100.23px 66.82px 100.23px;
+    gap: 72.39px;
+   
+
+}
+/* @media (max-width: 768px) {
+    .home {
+      flex-direction: column; 
+    }
+    .text,
+    .image {
+      text-align: center; 
+    }
+  } */
+  .text{
+    
+    width: Fill (657px)px;
+height: Hug (276px)px;
+gap: 32px;
+opacity: 0px;
+
+  }
+  .image{
+    width: 391px;
+height: 407px;
+gap: 0px;
+opacity: 0px;
+
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    width: 80%;
+    margin: auto; 
+    height: 100vh; 
+    margin-top: 10px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 20px; /*Space between text and image */
+    margin: 0 20px 0 10px;
+}
+
+.text h1 {
+    font-size: 60px;
+    margin: 0.5em 0;
+    margin: 0 20px 0 10px;
+}
+
+.text p {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.text button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.image {
+    flex: 1;
+    max-width: 100%;/* Make sure the image scales well*/
+    height: 300px;
+    width: 300px;
+}
+.clients{
+    margin-top: -20px;
+   text-align: center;
+
+}
+.community{
+    margin-top: 20px;
+    align-content: center;
+    text-align: center;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .unlock {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .text, .container {
+    width: 50%; /* Each side takes up 50% of the width */
+    padding: 20px; /* Optional: add padding */
+    box-sizing: border-box; /* Include padding in the element's width and height */
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+  }
+  
+  .imageii {
+    width: 100%; /* Make image fill its container */
+    height: 100%; /* Optional: make image height fill its container */
+    object-fit: cover; /* Ensure image covers its container */
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .achievements {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .text1, .image-container {
+    width: 50%; /* Each side takes up 50% of the width */
+    padding: 20px; /* Optional: add padding */
+    box-sizing: border-box; /* Include padding in the element's width and height */
+  }
+  
+  .text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center text vertically */
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center; /* Center image vertically */
+    justify-content: center; /* Center image horizontally */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Make image fit its container */
+    max-height: 100%; /* Optional: make image height fill its container */
+    object-fit: cover; /* Ensure image covers its container */
+  }
+  
